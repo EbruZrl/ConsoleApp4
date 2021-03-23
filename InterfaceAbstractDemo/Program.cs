@@ -11,7 +11,7 @@ namespace InterfaceAbstractDemo
             BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
             customerManager.Save(new Entities.Customer {
                 DateOfBirth = new System.DateTime(2000,7,14), FirstName= "Ebru",
-            LastName = "Zorlu", NationalityId ="30332280900"}); 
+            LastName = "Zorlu", NationalityId ="123456789"}); 
 
 
         }
